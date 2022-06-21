@@ -1,0 +1,48 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+h1 {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.main-container {
+  border: 2px solid hotpink;
+  height: 90vh;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+  border: 2px solid limegreen;
+  display: flex;
+  flex-direction: row;
+  height: 33.33%;
+}
+
+.tiles {
+  border: 2px solid blue;
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid salmon;
+}
